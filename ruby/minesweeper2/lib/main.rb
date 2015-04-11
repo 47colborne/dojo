@@ -48,6 +48,10 @@ class Minefield
     @field.collect { |row| row.collect { |cell| cell.to_s } }
   end
 
+  def to_s
+    @field.collect { |row| row.join(' ') }.join("\n")
+  end
+
   def dispatch(event)
     cells.each { |cell| cell.handle(event) }
   end
@@ -56,7 +60,7 @@ class Minefield
     @field.flatten
   end
 
-  def guess(row,column)
+  def guess(row, column)
     cell = @field[row][column]
     cell.click(cell.location)
   end
@@ -64,7 +68,7 @@ end
 
 class Cell
   MINE = -1
-  MASK = "#"
+  MASK = '#'
 
   attr_reader :location, :value, :hidden
 
@@ -106,17 +110,18 @@ class Cell
 
   def click(location)
     if @location == location
-
-      if blank?
-        @field.dispatch(Event.new(:click, @location)) if hidden
-      end
-      @field.dispatch(Event.new(:reveal, @location)) if has_mine?
-      reveal
-
-    elsif neighbour?(location)
-      if blank?
-        @field.dispatch(Event.new(:click, @location)) if hidden
+      if blank? && hidden
         reveal
+        @field.dispatch(Event.new(:click, @location))
+      end
+
+      @field.dispatch(Event.new(:reveal, @location)) if has_mine?
+
+      reveal
+    elsif neighbour?(location)
+      if blank? && hidden
+        reveal
+        @field.dispatch(Event.new(:click, @location))
       end
     end
   end
@@ -133,8 +138,6 @@ class Cell
 
   def neighbour?(other_location)
     (location.column - other_location.column).abs <= 1 &&
-    (location.row - other_location.row).abs <= 1
+        (location.row - other_location.row).abs <= 1
   end
-
-
 end

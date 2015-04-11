@@ -59,6 +59,41 @@ describe Minefield do
       minefield.guess(0,0)
     end
   end
+
+  describe '#to_s' do
+    it 'should display the minefield' do
+      expect(minefield.to_s).to eq("# # #\n# # #")
+    end
+
+  end
+
+  context 'click an empty cell in empty field' do
+    it 'should reveal the field' do
+      minefield.guess(0,0)
+      expect(minefield.display).to eq([%w(0 0 0),
+                                       %w(0 0 0)])
+    end
+  end
+
+  context 'click a mine' do
+    it 'should reveal all cells' do
+      expect(placement_strategy).to receive(:mine_locations).and_return([Location.new(0, 0)])
+      minefield.lay_mines(1)
+      minefield.guess(0,0)
+      expect(minefield.display).to eq([%w(* 1 0),
+                                       %w(1 1 0)])
+    end
+  end
+
+  context 'click a numbered cell' do
+    it 'should reveal the cell' do
+      expect(placement_strategy).to receive(:mine_locations).and_return([Location.new(0, 0)])
+      minefield.lay_mines(1)
+      minefield.guess(1,0)
+      expect(minefield.display).to eq([%w(# # #),
+                                       %w(1 # #)])
+    end
+  end
 end
 
 describe Cell do
@@ -137,18 +172,30 @@ describe Cell do
 
     context 'blank cell' do
       context 'with this cell\'s location' do
-        it 'should reveal this cell and propagate' do
+        it 'should reveal this cell and propagate if hidden' do
           expect(field).to receive(:dispatch).with(Event.new(:click, location))
           cell.click(location)
           expect(cell.hidden).to eq(false)
         end
+
+        it 'should not propagate if already revealed' do
+          cell.reveal
+          expect(field).not_to receive(:dispatch)
+          cell.click(location)
+        end
       end
 
       context 'with a neighbouring location' do
-        it 'should reveal this cell and propagate' do
+        it 'should reveal this cell and propagate if hidden' do
           expect(field).to receive(:dispatch).with(Event.new(:click, location))
           cell.click(Location.new(location.row+1, location.column+1))
           expect(cell.hidden).to eq(false)
+        end
+
+        it 'should not propagate if already revealed' do
+          cell.reveal
+          expect(field).not_to receive(:dispatch)
+          cell.click(Location.new(location.row+1, location.column+1))
         end
       end
 
