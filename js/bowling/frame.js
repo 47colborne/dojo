@@ -3,6 +3,20 @@
 module.exports = function (rolls) {
   var nextFrame;
 
+  function frameBonus() {
+    if (!nextFrame){
+      return 0;
+    }
+
+    if (isStrike()) {
+      return nextFrame.getBonus(2);
+    } else if (isSpare()) {
+      return nextFrame.getBonus(1);
+    } else {
+      return 0;
+    }
+  }
+
   function isStrike() {
     return rolls[0] === 10;
   }
@@ -19,11 +33,7 @@ module.exports = function (rolls) {
         total += roll;
       });
 
-      if (isStrike()) {
-        total += this.getBonus(2);
-      } else if (isSpare()) {
-        total += this.getBonus(1);
-      }
+      total += frameBonus();
 
       return total;
     },
@@ -37,17 +47,17 @@ module.exports = function (rolls) {
     },
 
     getBonus: function (n) {
-      var total = 0;
-      var slicedRolls = rolls.slice(0, n);
-      var remainingRolls = n - slicedRolls.length;
-
-      if (remainingRolls > 0 && nextFrame) {
-        total += nextFrame.getBonus(remainingRolls);
-      }
+      var total = 0,
+        slicedRolls = rolls.slice(0, n),
+        remainingRolls = n - slicedRolls.length;
 
       slicedRolls.forEach(function (roll) {
         total += roll;
       });
+
+      if (remainingRolls > 0 && nextFrame) {
+        total += nextFrame.getBonus(remainingRolls);
+      }
 
       return total;
     }
