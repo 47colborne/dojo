@@ -28,8 +28,37 @@ describe Life do
       expect(life.cells.length).to eq(1)
     end
 
+    it 'should be registered with the bus' do
+      life.add_cell(1, 2)
+      expect(life.bus.cells.length).to eq(1)
+    end
+
   end
 
+end
+
+describe Cell do
+
+  let(:bus) {Bus.new}
+
+  subject(:cell) { Cell.new(1, 1, bus) }
+
+  describe 'on initialize' do
+
+    it 'should register self with the bus' do
+      bus = Bus.new
+      expect { Cell.new(1, 2, bus) }.to change { bus.cells.length }.from(0).to(1)
+    end
+
+  end
+
+  describe '#send_message' do
+    it 'sends provided message to the bus' do
+      message = {event: :test}
+      expect(bus).to receive(:receive_message).with(message)
+      cell.send_message(message)
+    end
+  end
 end
 
 describe Bus do
@@ -40,6 +69,17 @@ describe Bus do
       bus.receive_message("message1")
       bus.receive_message("message2")
       expect(bus.messages).to eq(["message1", "message2"])
+    end
+
+  end
+
+  describe '#send_messages' do
+    it 'should send messages to cells' do
+      cell = Cell.new(1, 2, bus)
+      message = {message: "m1"}
+      bus.messages = [message]
+      expect(cell).to receive(:process).with(message)
+      bus.send_messages
     end
 
   end
