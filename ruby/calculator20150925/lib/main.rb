@@ -18,16 +18,7 @@ class Parser
         if token != RPAREN
           stack << token
         else
-          expression_tokens = []
-
-          loop do
-            holder = stack.pop
-            break if holder == LPAREN
-            expression_tokens.unshift(holder)
-          end
-
-          subtree = parse_expression(expression_tokens)
-          stack << subtree
+          parse_single_parens_expression(stack)
         end
       end
       stack.pop
@@ -37,7 +28,20 @@ class Parser
 
   end
 
+
   private
+  def parse_single_parens_expression(stack)
+    expression_tokens = []
+
+    loop do
+      holder = stack.pop
+      break if holder == LPAREN
+      expression_tokens.unshift(holder)
+    end
+
+    subtree = parse_expression(expression_tokens)
+    stack << subtree
+  end
 
   def parse_expression(tokens)
     OPERATORS.each do |tier|
