@@ -1,9 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    awesome_print (1.6.1)
+    byebug (5.0.0)
+      columnize (= 0.9.0)
     celluloid (0.16.0)
       timers (~> 4.0.0)
     coderay (1.1.0)
+    columnize (0.9.0)
     diff-lcs (1.2.5)
     ffi (1.9.8)
     formatador (0.2.5)
@@ -36,6 +40,9 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-byebug (3.2.0)
+      byebug (~> 5.0)
+      pry (~> 0.10)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -67,8 +74,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   guard
   guard-rspec
+  pry-byebug
   rspec
   rspec-its
   terminal-notifier
