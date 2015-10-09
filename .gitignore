@@ -2,4 +2,7 @@
 .idea
 *.iml
 tmp
+
 **/out
+**/build
+**/.gradle
