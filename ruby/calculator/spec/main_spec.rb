@@ -1,45 +1,73 @@
 require 'spec_helper.rb'
 
 describe Calculator do
-  let (:calc) { Calculator.new }
 
-  describe '#tokenize' do
-    it 'return an array of numbers and symbols' do
-
-      expect(calc.tokenize('2*3+4-1/2')).to eq([
-                                                   2,
-                                                   Operator::MULTIPLY,
-                                                   3,
-                                                   Operator::PLUS,
-                                                   4,
-                                                   Operator::MINUS,
-                                                   1,
-                                                   Operator::DIVISION,
-                                                   2
-                                               ])
+  describe '#calculate' do
+    it 'adds two numbers' do
+      expect(subject.calculate([1, :+, 1])).to eq(2)
     end
-    it 'handles numbers longer than one digit' do
-      expect(calc.tokenize('10*123')).to eq([10, Operator::MULTIPLY, 123])
+    it 'calculates three numbers with order of operations' do
+      expect(subject.calculate([1, :+, 1, :*, 5])).to eq(6)
     end
-  end
-
-  describe '#lex' do
-    it 'build an ast for 2 + 2' do
-      expect(calc.lex([2, Operator::PLUS, 2])).to eq([[Operator::PLUS, 2, 2]])
+    it 'subtracts correctly' do
+      expect(subject.calculate([1, :-, 1, :-, 5])).to eq(-5)
     end
 
-    it 'build an ast for 2 + 2 - 3' do
-      expect(calc.lex([2, Operator::PLUS, 2, Operator::MINUS, 3])).to eq([[Operator::MINUS, [Operator::PLUS, 2, 2], 3]])
+    it 'should evaluate brackets first' do
+      expect(subject.calculate([ 3, :*, '(', 4, :-, 1, ')', :+, 6])).to eq(15)
     end
 
-    it 'build an ast for 2 + 2 * 3' do
-      expect(calc.lex([2, Operator::PLUS, 2, Operator::MULTIPLY, 3])).to eq([[Operator::PLUS, 2, [Operator::MULTIPLY, 2, 3]]])
+    it 'should evaluate nested bracket' do
+      expect(subject.calculate([ '(','(', 6, ')', ')'])).to eq(6)
+    end
+
+    it 'should be awesome!' do
+      expect(subject.calculate([ '(', 2, :^, '(', 16, :/, 4, ')', :+, 4, ')' , :*, '(', '(', 3, :*, 12, ')' , :/, 6, ')'])).to eq(120)
     end
   end
 
-  describe '#evaluate' do
-    it 'evals an ast of [[Operator::PLUS, 2, 2]]' do
-      expect(calc.evaluate([[Operator::PLUS, 2, 2]])).to eq(4)
+end
+
+describe Node do
+
+  describe '#insert_against' do
+    context 'new nodes priority is greater existing node' do
+      it 'should assign the right node to new' do
+        existing_node = Node.new(:+)
+        new_node = Node.new(1)
+        new_node.insert_against(existing_node)
+        expect(existing_node.right).to eq(new_node)
+      end
+
+      it 'should call insert_against on the existing node\'s right child right node to new' do
+        existing_node = Node.new(:+)
+        existing_node_right_child = Node.new(:*)
+        existing_node.right = existing_node_right_child
+        new_node = Node.new(1)
+        new_node.insert_against(existing_node)
+        expect(existing_node_right_child.right).to eq(new_node)
+      end
     end
+
+    context 'new nodes priority is less than existing node' do
+      it 'should assign the new node as the parent of the existing node' do
+        existing_node = Node.new(:*)
+        new_node = Node.new(:+)
+        new_node.insert_against(existing_node)
+        expect(new_node.left).to eq(existing_node)
+      end
+    end
+
+    context 'new nodes priority equal to existing node' do
+      it 'should assign the new nodes left to the existing' do
+        existing_node = Node.new(:-)
+        new_node = Node.new(:+)
+        new_node.insert_against(existing_node)
+        expect(new_node.left).to eq(existing_node)
+      end
+    end
+
   end
 end
+
+
