@@ -1,0 +1,507 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww15440\viewh8680\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 Bath,9\
+Bath  > Bathrobes,6\
+Beaut\'c3\'a9 > Cheveux > Outils De Coiffage,5\
+Beaut\'c3\'a9 > Coffrets > Coffrets Parfum > Ensembles Parfum\'c3\'a9s Pour Elle,1\
+Beaut\'c3\'a9 > Coffrets > Coffrets Soin De La Peau,7\
+Beaut\'c3\'a9 > Nouveaux Arrivages,6\
+Beaut\'c3\'a9 > Parfums > Parfums Pour Elle,72\
+Beaut\'c3\'a9 > Parfums > Parfums Pour Lui,2\
+Beaut\'c3\'a9 > Parfums > Pour Elle Et Lui,1\
+Beaut\'c3\'a9 > Soin De La Peau > Hydratants,29\
+Beaut\'c3\'a9 > Soin De La Peau > Masques,1\
+Beaut\'c3\'a9 > Soin De La Peau > Outils,5\
+Beaut\'c3\'a9 > Soin De La Peau > S\'c3\'a9rums,18\
+Beaut\'c3\'a9 > Soin De La Peau > Soin De Nuit,3\
+Beaut\'c3\'a9 > Soin De La Peau > Soins Contour Des Yeux,3\
+Beaut\'e9 > Cheveux > \'c9pilation,1\
+Beaut\'e9 > Choix Populaires,2\
+Beaut\'e9 > Coffrets > Coffrets Parfum > Ensembles Parfum\'e9s Pour Elle,6\
+Beaut\'e9 > Coffrets > Coffrets Soin De La Peau,1\
+Beaut\'e9 > Maquillage > Pinceaux Et Accessoires,1\
+Beaut\'e9 > Parfums > Coffrets Parfum > Ensembles Parfum\'e9s Pour Elle,1\
+Beaut\'e9 > Parfums > Parfums Pour Elle,9\
+Beaut\'e9 > Soin De La Peau > Coffrets Soin De La Peau,1\
+Beaut\'e9 > Soin De La Peau > Hydratants,16\
+Beaut\'e9 > Soin De La Peau > Masques,1\
+Beaut\'e9 > Soin De La Peau > Outils,6\
+Beaut\'e9 > Soin De La Peau > S\'e9rums,4\
+Beaut\'e9 > Soin De La Peau > Soins Contour Des Yeux,1\
+Beauty > Bath & Body > Body Scrubs,30\
+Beauty > Bath & Body > Body Treatments,73\
+Beauty > Bath & Body > Deodorant & Powders,49\
+Beauty > Bath & Body > Hand & Nail Care,40\
+Beauty > Bath & Body > Moisturizers & Oils,437\
+Beauty > Bath & Body > Soaps & Shower Gels,215\
+Beauty > Best Sellers,101\
+Beauty > Best Sellers > Lightful,11\
+Beauty > Best Sellers > Mineralize,134\
+Beauty > Best Sellers > Prep + Prime,47\
+Beauty > Best Sellers > Pro Longwear,123\
+Beauty > Best Sellers > Studio,153\
+Beauty > Fragrance,4\
+Beauty > Fragrance > For Him & For Her,40\
+Beauty > Fragrance > Fragrance Sets > Perfume Sets,247\
+Beauty > Fragrance > Men's Cologne,577\
+Beauty > Fragrance > Women'S Perfume,1230\
+Beauty > Gift Sets > Bath & Body Sets,31\
+Beauty > Gift Sets > Fragrance Sets,3\
+Beauty > Gift Sets > Fragrance Sets > Cologne Sets,4\
+Beauty > Gift Sets > Fragrance Sets > Perfume Sets,93\
+Beauty > Gift Sets > Makeup Sets,41\
+Beauty > Gift Sets > Men's Gift Sets > Cologne Sets,40\
+Beauty > Gift Sets > Men's Gift Sets > Grooming Sets,5\
+Beauty > Gift Sets > Men's Grooming Sets,6\
+Beauty > Gift Sets > Skin Care Sets,222\
+Beauty > Gift Sets > Skincare Sets,28\
+Beauty > Hair Care > Hair Removal,7\
+Beauty > Hair Care > Shampoo & Conditioner,58\
+Beauty > Hair Care > Styling Products,10\
+Beauty > Hair Care > Styling Tools,26\
+Beauty > Hair Care > Treatments,27\
+Beauty > Makeup,7\
+Beauty > Makeup > Brushes & Tools,1\
+Beauty > Makeup > Eyes > Eye Kits And Bags,6\
+Beauty > Makeup > Eyes > Eye Makeup Kits,21\
+Beauty > Makeup > Eyes > Eyebrow,229\
+Beauty > Makeup > Eyes > Eyelashes,35\
+Beauty > Makeup > Eyes > Eyeliner,587\
+Beauty > Makeup > Eyes > Eyeshadow,1264\
+Beauty > Makeup > Eyes > Eyeshadow Primer,28\
+Beauty > Makeup > Eyes > Mascara,216\
+Beauty > Makeup > Face > Bb & Cc Creams,160\
+Beauty > Makeup > Face > Blush,484\
+Beauty > Makeup > Face > Bronzer,109\
+Beauty > Makeup > Face > Concealer,337\
+Beauty > Makeup > Face > Face Kits,2\
+Beauty > Makeup > Face > Foundation,1511\
+Beauty > Makeup > Face > Illuminator,69\
+Beauty > Makeup > Face > Multi-Use,21\
+Beauty > Makeup > Face > Powder,366\
+Beauty > Makeup > Face > Primer,53\
+Beauty > Makeup > Lips > Lip Gloss,958\
+Beauty > Makeup > Lips > Lip Pencil,427\
+Beauty > Makeup > Lips > Lipstick,1732\
+Beauty > Makeup > Makeup Remover,45\
+Beauty > Men's Grooming > Cleansers,22\
+Beauty > Men's Grooming > Deodorant,20\
+Beauty > Men's Grooming > Gift Sets > Cologne Sets,4\
+Beauty > Men's Grooming > Gift Sets > Men's Grooming Sets,1\
+Beauty > Men's Grooming > Men's Gift Sets > Cologne Sets,113\
+Beauty > Men's Grooming > Men's Gift Sets > Grooming Sets,16\
+Beauty > Men's Grooming > Moisturize & Treat,1\
+Beauty > Men's Grooming > Moisturizers & Treatments,20\
+Beauty > Men's Grooming > Shavers & Trimmers,6\
+Beauty > Men's Grooming > Shaving & Aftershave,32\
+Beauty > Nails > Nail Polish,723\
+Beauty > Nails > Nail Treatments,67\
+Beauty > New Arrivals,281\
+Beauty > Skin Care > Cleansers & Scrubs,254\
+Beauty > Skin Care > Eye Treatments,189\
+Beauty > Skin Care > Facial Moisturizers,518\
+Beauty > Skin Care > Facial Toners,81\
+Beauty > Skin Care > Lip Treatments,109\
+Beauty > Skin Care > Makeup Remover,5\
+Beauty > Skin Care > Masks & Peels,103\
+Beauty > Skin Care > Night Treatments,114\
+Beauty > Skin Care > Serums,167\
+Beauty > Skin Care > Skin Brightening,18\
+Beauty > Skin Care > Skin Brightening Treatments,61\
+Beauty > Skin Care > Skin Serums,35\
+Beauty > Skin Care > Solutions,8\
+Beauty > Skin Care > Sun Care > After Sun,12\
+Beauty > Skin Care > Sun Care > Self Tanners,10\
+Beauty > Skin Care > Sun Care > Self-Tanners,48\
+Beauty > Skin Care > Sun Care > Sun Protection,43\
+Beauty > Skin Care > Tools,3\
+Beauty > Skincare > Facial Moisturizers,4\
+Beauty > Skincare > Skin Serums,2\
+Beauty > Skincare > Skincare Sets,1\
+Beauty > Skincare > Tools,4\
+Beauty > Tools,6\
+Beauty > Tools > Accessories,56\
+Beauty > Tools > Bags,1\
+Beauty > Tools > Brushes,237\
+Beauty > Tools > Cosmetic Bags,13\
+Beauty > Tools > Eye,3\
+Beauty > Tools > Face,22\
+Beauty > Tools > Skin Care Tools,64\
+Bed,770\
+Bed > Bed Sheets,289\
+Bed > Decorative Pillows,25\
+Bed > Duvet Cover Sets,100\
+Bed > Duvet Covers,96\
+Bed > Duvets,51\
+Bed > Mattress Pads,18\
+Bed > Pillows,5\
+Bed > Quilts & Coverlets,96\
+Bijoux & Accessoires > Accessoires > Capes & Ponchos,6\
+Bijoux & Accessoires > Accessoires > Foulards Gants Et Chapeaux > Chapeaux Et Accessoires Pour Cheveux,10\
+Bijoux & Accessoires > Accessoires > Foulards Gants Et Chapeaux > Foulards & Ch\'e2les,3\
+Bijoux & Accessoires > Accessoires > Foulards Gants Et Chapeaux > Gants,1\
+Bijoux & Accessoires > Accessoires > Fur Accessories,1\
+Bijoux & Accessoires > Accessoires > Lunettes De Soleil,565\
+Bijoux & Accessoires > Bijoux Fins > Bagues,931\
+Bijoux & Accessoires > Bijoux Fins > Bijoux Pour Enfants,2\
+Bijoux & Accessoires > Bijoux Fins > Boucles D'Oreilles,1223\
+Bijoux & Accessoires > Bijoux Fins > Bracelets,313\
+Bijoux & Accessoires > Bijoux Fins > Coffrets \'c0 Bijoux,3\
+Bijoux & Accessoires > Bijoux Fins > Coffrets \'c3\'80 Bijoux,1\
+Bijoux & Accessoires > Bijoux Fins > Colliers,1346\
+Bijoux & Accessoires > Bijoux Fins > Colliers > Perles,2\
+Bijoux & Accessoires > Bijoux Fins > Ensembles De Bijoux,10\
+Bijoux & Accessoires > Bijoux Mode > Bagues,26\
+Bijoux & Accessoires > Bijoux Mode > Boucles D'Oreilles > Boucles D'Oreilles \'c0 Pince,1\
+Bijoux & Accessoires > Bijoux Mode > Boucles D'Oreilles > Boutons D'Oreilles,4\
+Bijoux & Accessoires > Bijoux Mode > Boucles D'Oreilles > Cr\'c3\'a9oles,2\
+Bijoux & Accessoires > Bijoux Mode > Boucles D'Oreilles > Cr\'e9oles,1\
+Bijoux & Accessoires > Bijoux Mode > Boucles D'Oreilles > Occasion Sp\'c3\'a9cial,1\
+Bijoux & Accessoires > Bijoux Mode > Boucles D'Oreilles > Occasion Sp\'e9cial,1\
+Bijoux & Accessoires > Bijoux Mode > Boucles D'Oreilles > Pendants D'Oreilles,13\
+Bijoux & Accessoires > Bijoux Mode > Boucles D'Oreilles > Pendeloques,4\
+Bijoux & Accessoires > Bijoux Mode > Bracelets > Bracelets,15\
+Bijoux & Accessoires > Bijoux Mode > Bracelets > Bracelets Joncs,29\
+Bijoux & Accessoires > Bijoux Mode > Bracelets > Bracelets Manchettes,31\
+Bijoux & Accessoires > Bijoux Mode > Bracelets > Bracelets Porte-Bonheur,2\
+Bijoux & Accessoires > Bijoux Mode > Bracelets > Occasion Sp\'c3\'a9cial,2\
+Bijoux & Accessoires > Bijoux Mode > Bracelets > Occasion Sp\'e9cial,4\
+Bijoux & Accessoires > Bijoux Mode > Broches,1\
+Bijoux & Accessoires > Bijoux Mode > Colliers > Colliers Audacieux,54\
+Bijoux & Accessoires > Bijoux Mode > Colliers > Colliers Et Pendentifs,176\
+Bijoux & Accessoires > Bijoux Mode > Colliers > Occasion Sp\'c3\'a9cial,13\
+Bijoux & Accessoires > Bijoux Mode > Colliers > Occasion Sp\'e9cial,7\
+Bijoux & Accessoires > Bijoux Mode > Ensembles De Bijoux,1\
+Bijoux & Accessoires > Bijoux Mode > Special Occasion > Bracelets,1\
+Bijoux & Accessoires > Bijoux Mode > Special Occasion > Colliers,7\
+Bijoux & Accessoires > Montres > Guide Montres Des F\'eates > Montre En Or,3\
+Bijoux & Accessoires > Montres > Guide Montres Des F\'eates > Montres \'c0 Bracelet En Cuir,1\
+Bijoux & Accessoires > Montres > Guide Montres Des F\'eates > Montres De Sport > Montres De Sport Pour Femme,15\
+Bijoux & Accessoires > Montres > Guide Montres Des F\'eates > Montres De Sport > Montres De Sport Pour Homme,20\
+Bijoux & Accessoires > Montres > Guide Montres Des F\'eates > Montres En Or Rose,1\
+Bijoux & Accessoires > Montres > Guide Montres Des F\'eates > Montres Noires,6\
+Bijoux & Accessoires > Montres > Montre En Or,26\
+Bijoux & Accessoires > Montres > Montres \'c0 Bracelet En Cuir,8\
+Bijoux & Accessoires > Montres > Montres De Sport > Montres De Sport Pour Femme,3\
+Bijoux & Accessoires > Montres > Montres De Sport > Montres De Sport Pour Homme,84\
+Bijoux & Accessoires > Montres > Montres En Or Rose,27\
+Bijoux & Accessoires > Montres > Montres Noires,49\
+Bijoux & Accessoires > Montres > Montres Pour Femme > Fine,73\
+Bijoux & Accessoires > Montres > Montres Pour Femme > Luxe,195\
+Bijoux & Accessoires > Montres > Montres Pour Femme > Mode,502\
+Bijoux & Accessoires > Montres > Montres Pour Femme > Sport,7\
+Bijoux & Accessoires > Montres > Montres Pour Homme,11\
+Bijoux & Accessoires > Montres > Montres Pour Homme > Fine,77\
+Bijoux & Accessoires > Montres > Montres Pour Homme > Luxe,212\
+Bijoux & Accessoires > Montres > Montres Pour Homme > Mode,321\
+Bijoux & Accessoires > Montres > Montres Pour Homme > Sport,35\
+Bijoux & Accessoires > Montres > Montres Pour Homme > Tech Savy,14\
+Bijoux & Accessoires > Montres > Montres Surdimensionn\'e9es,3\
+Bijoux & Accessoires > Montres > Pour Hommes > Montres Intelligentes Quartz,18\
+Boutiques,153\
+Chanel > Ladies' Fragrances > Allure,20\
+Chanel > Ladies' Fragrances > Allure Sensuelle,7\
+Chanel > Ladies' Fragrances > Chance,18\
+Chanel > Ladies' Fragrances > Chance Eau Fra\'c3\'aeche,9\
+Chanel > Ladies' Fragrances > Chance Eau Fra\'eeche,15\
+Chanel > Ladies' Fragrances > Chance Eau Tendre,15\
+Chanel > Ladies' Fragrances > Coco,13\
+Chanel > Ladies' Fragrances > Coco Mademoiselle,18\
+Chanel > Ladies' Fragrances > Coco Noir,8\
+Chanel > Ladies' Fragrances > Cristalle,1\
+Chanel > Ladies' Fragrances > N\'c2\'b019,8\
+Chanel > Ladies' Fragrances > N\'c2\'b05,18\
+Chanel > Ladies' Fragrances > N\'b019,15\
+Chanel > Ladies' Fragrances > N\'b05,25\
+Chanel > Makeup  > Brushes And Accessories > Complexion Brushes,14\
+Chanel > Makeup  > Brushes And Accessories > Eye Brushes,15\
+Chanel > Makeup  > Brushes And Accessories > Lip Brushes,4\
+Chanel > Makeup  > Brushes And Accessories > Other Accessories,1\
+Chanel > Makeup  > Collections > Blue Rhythm De Chanel,13\
+Chanel > Makeup  > Collections > Collection M\'e9diterran\'e9e,7\
+Chanel > Makeup  > Collections > Les Beiges,14\
+Chanel > Makeup  > Complexion > Blush,40\
+Chanel > Makeup  > Complexion > Bronzers,3\
+Chanel > Makeup  > Complexion > Concealer,12\
+Chanel > Makeup  > Complexion > Foundations,114\
+Chanel > Makeup  > Complexion > Powders,27\
+Chanel > Makeup  > Eyes > Brows,5\
+Chanel > Makeup  > Eyes > Eyeshadows,52\
+Chanel > Makeup  > Eyes > Mascara,18\
+Chanel > Makeup  > Eyes > Pencils / Liners,44\
+Chanel > Makeup  > Lips > Lip Care,2\
+Chanel > Makeup  > Lips > Lip Gloss,57\
+Chanel > Makeup  > Lips > Lip Pencils,42\
+Chanel > Makeup  > Lips > Lipsticks,113\
+Chanel > Makeup  > Nails > Manicure,13\
+Chanel > Makeup  > Nails > Nail Colour,44\
+Chanel > Men's Fragrances > Allure Homme,6\
+Chanel > Men's Fragrances > Allure Homme \'c3\'89dition Blanche,6\
+Chanel > Men's Fragrances > Allure Homme \'c9dition Blanche,6\
+Chanel > Men's Fragrances > Allure Homme Sport,20\
+Chanel > Men's Fragrances > Antaeus,3\
+Chanel > Men's Fragrances > Bleu De Chanel,14\
+Chanel > Men's Fragrances > Platinum \'c3\'89go\'c3\'afste,5\
+Chanel > Men's Fragrances > Platinum \'c9go\'efste,5\
+Chanel > Men's Fragrances > Pour Monsieur,8\
+Chanel > Parfums Pour Femmes > Coco,1\
+Chanel > Parfums Pour Femmes > N\'c2\'b05,3\
+Chanel > Parfums Pour Femmes > N\'b05,1\
+Chanel > Skincare > Body,2\
+Chanel > Skincare > Brightening,10\
+"Chanel > Skincare > Cleansers, Makeup Remover & Toners",13\
+Chanel > Skincare > Complete Anti-Aging,20\
+Chanel > Skincare > Hydration,19\
+Chanel > Skincare > Lifting & Firming,13\
+Chanel > Skincare > Oil Control,5\
+Chanel > Skincare > Others,8\
+Chanel > Skincare > Protection,5\
+Chanel > Skincare > Resynchronizing Skincare,3\
+Chanel > Soin > Anti-\'c2ge Global,4\
+Chanel > Soin > Anti-\'c3\'82ge Global,11\
+Chanel > Soin > Clarte,6\
+Chanel > What's New,56\
+Chaussures > Chaussures Pour Enfants > Bottes,44\
+Chaussures > Chaussures Pour Enfants > Chaussures Pour B\'e9b\'e9,4\
+Chaussures > Chaussures Pour Femme > Botte \'c0 Large Talon,23\
+Chaussures > Chaussures Pour Femme > Botte \'c0 Semelle Crant\'e9e,29\
+Chaussures > Chaussures Pour Femme > Botte Haute,149\
+Chaussures > Chaussures Pour Femme > Bottes > Bottes D'Hiver,866\
+Chaussures > Chaussures Pour Femme > Bottes > Bottes De Pluie,77\
+Chaussures > Chaussures Pour Femme > Bottes > Bottes Haute,1554\
+Chaussures > Chaussures Pour Femme > Bottes > Bottes Mollets Larges,285\
+Chaussures > Chaussures Pour Femme > Bottes > Bottillons,1371\
+Chaussures > Chaussures Pour Femme > Bottes > Cuissarde,39\
+Chaussures > Chaussures Pour Femme > Bottes > Mi-Court Bottes,713\
+Chaussures > Chaussures Pour Femme > Chaussures Contemporaines,103\
+Chaussures > Chaussures Pour Femme > Chaussures De Confort > Botte,11\
+Chaussures > Chaussures Pour Femme > Chaussures De Confort > Escarpins,9\
+Chaussures > Chaussures Pour Femme > Chaussures De Confort > Fl\'e2neur,18\
+Chaussures > Chaussures Pour Femme > Chaussures De Designer,8\
+Chaussures > Chaussures Pour Femme > Chaussures De Sport,14\
+Chaussures > Chaussures Pour Femme > Chaussures Plates > Arrondi,73\
+Chaussures > Chaussures Pour Femme > Chaussures Plates > Fl\'e2neur Et Richelieus,39\
+Chaussures > Chaussures Pour Femme > Chaussures Plates > Fl\'c3\'a2neur Et Richelieus,29\
+Chaussures > Chaussures Pour Femme > Chaussures Plates > Pointu,72\
+Chaussures > Chaussures Pour Femme > Escarpin \'c0 Lani\'e8res,12\
+Chaussures > Chaussures Pour Femme > Escarpins > Escarpin Bout Ouvert,86\
+Chaussures > Chaussures Pour Femme > Escarpins > Escarpin Bout Pointu,329\
+Chaussures > Chaussures Pour Femme > Escarpins > Escarpin Bout Rond,22\
+Chaussures > Chaussures Pour Femme > Escarpins > Semelles Compens\'c3\'a9es,2\
+Chaussures > Chaussures Pour Femme > Escarpins > Semelles Compens\'e9es,7\
+Chaussures > Chaussures Pour Femme > Escarpins > Stiletto & High Heels,95\
+Chaussures > Chaussures Pour Femme > Escarpins-Sandales,94\
+Chaussures > Chaussures Pour Femme > Fl\'e2neur Et Richelieus,88\
+Chaussures > Chaussures Pour Femme > Fl\'c3\'a2neur Et Richelieus,40\
+Chaussures > Chaussures Pour Femme > La Botte Lac\'e9e,13\
+Chaussures > Chaussures Pour Femme > La Bottine Cambr\'e9e,4\
+Chaussures > Chaussures Pour Femme > Le Bottillon \'c0 Talon Compens\'e9,12\
+Chaussures > Chaussures Pour Femme > Sandales > Espadrilles Et Semelles Compens\'c3\'a9es,14\
+Chaussures > Chaussures Pour Femme > Sandales > Espadrilles Et Semelles Compens\'e9es,22\
+Chaussures > Chaussures Pour Femme > Sandales > Sandale Plates,161\
+Chaussures > Chaussures Pour Femme > Sandales > Sandales \'c0 Talon,265\
+Chaussures > Chaussures Pour Femme > Sandales > Sandales \'c3\'80 Talon,307\
+Chaussures > Chaussures Pour Femme > Sandales > Wedge Sandals,46\
+Chaussures > Chaussures Pour Femme > Semelles Compens\'c3\'a9es,34\
+Chaussures > Chaussures Pour Femme > Semelles Compens\'e9es,116\
+Chaussures > Chaussures Pour Femme > Sneakers,34\
+Chaussures > Chaussures Pour Femme > Sneakers > Chaussures De Sport,78\
+Chaussures > Chaussures Pour Femme > Sneakers > Style De Rue,106\
+Chaussures > Chaussures Pour Femme > Sneakers > Talon Compens\'c3\'a9,6\
+Chaussures > Chaussures Pour Femme > Sneakers > Talon Compens\'e9,11\
+Chaussures > Chaussures Pour Homme > Bottes > Bottes D\'e9contract\'e9,84\
+Chaussures > Chaussures Pour Homme > Bottes > Bottes Habill\'e9es,6\
+Chaussures > Chaussures Pour Homme > Bottes > D\'c3\'a9contract\'c3\'a9,203\
+Chaussures > Chaussures Pour Homme > Bottes > D\'e9contract\'e9,468\
+Chaussures > Chaussures Pour Homme > Bottes > Habill\'c3\'a9s,52\
+Chaussures > Chaussures Pour Homme > Bottes > Habill\'e9s,36\
+Chaussures > Chaussures Pour Homme > Bottes > Hiver,596\
+Chaussures > Chaussures Pour Homme > Chaussures D\'e9contract\'e9,5\
+Chaussures > Chaussures Pour Homme > Chaussures Habill\'e9es,5\
+Chaussures > Chaussures Pour Homme > D\'c3\'a9contract\'c3\'a9,84\
+Chaussures > Chaussures Pour Homme > D\'e9contract\'e9,57\
+Chaussures > Chaussures Pour Homme > Habill\'c3\'a9s,237\
+Chaussures > Chaussures Pour Homme > Habill\'e9s,144\
+Chaussures > Chaussures Pour Homme > Sneakers,70\
+Chaussures > Chaussures Pour Homme > Sneakers > Athl\'c3\'a9tique,7\
+Chaussures > Chaussures Pour Homme > Sneakers > Athl\'e9tique,36\
+Chaussures > Chaussures Pour Homme > Sneakers > Tout-Aller,134\
+Collections Hbc > Collection Hbc > Accessoires,8\
+Collections Hbc > Collection Hbc > Articles-Cadeaux Fabriqu\'e9s Au Canada,15\
+Collections Hbc > Collection Hbc > Couvertures & Jet\'c3\'a9s,12\
+Collections Hbc > Collection Hbc > Couvertures & Jet\'e9s,46\
+Collections Hbc > Collection Hbc > Femme,62\
+Collections Hbc > Collection Hbc > Homme,22\
+Collections Hbc > Collection Hbc > L'Ext\'c3\'a9rieur,1\
+Collections Hbc > Collection Hbc > Maison,18\
+Collections Hbc > Collection Hbc > Sacs \'c0 Main Collection Hbc,7\
+Collections Hbc > Marchandise Olympique > Enfants,2\
+Collections Hbc > Marchandise Olympique > Femmes,5\
+Collections Hbc > Marchandise Olympique > Hommes,4\
+Dining & Entertaining,246\
+Dining & Entertaining > Bar > Buckets & Coolers,1\
+Dining & Entertaining > Bar > Decanters & Carafes,10\
+Dining & Entertaining > Bar > Wine Fridges,4\
+Dining & Entertaining > Dinnerware > Bowls,6\
+Dining & Entertaining > Dinnerware > Collections & Sets,44\
+Dining & Entertaining > Dinnerware > Dinner Plates,1\
+Dining & Entertaining > Dinnerware > Side Plates,2\
+Dining & Entertaining > Flatware > Flatware Sets,21\
+Dining & Entertaining > Flatware > Serving Sets,1\
+Dining & Entertaining > Flatware > Steak Knives,2\
+Dining & Entertaining > Glassware > Collections & Sets,6\
+Dining & Entertaining > Serving & Entertaining > Butter & Gravy,1\
+Dining & Entertaining > Serving & Entertaining > Cake Stands & Cake Plates,3\
+Dining & Entertaining > Serving & Entertaining > Coffeepots & Teapots,30\
+Dining & Entertaining > Serving & Entertaining > Cream & Sugar,1\
+Dining & Entertaining > Serving & Entertaining > Platters & Trays,37\
+Dining & Entertaining > Serving & Entertaining > Salt & Pepper,1\
+Dining & Entertaining > Serving & Entertaining > Serving & Dipping Bowls,11\
+Dining & Entertaining > Table Decor > Linens & Accessories,1\
+Enfants > Chambre De B\'e9b\'e9 > Chambre De B\'e9b\'e9,1\
+Enfants > Filles 2-6 > Ensembles,15\
+Enfants > Filles 2-6 > V\'eatements D'Ext\'e9rieur,15\
+Enfants > Filles 7-16 > V\'eatements D'Ext\'e9rieur,2\
+Furniture,9\
+Furniture > Bedroom,36\
+Furniture > Dining,92\
+Furniture > Living,1\
+Furniture > Living > Area Rugs,67\
+Furniture > Living > Artwork,18\
+Furniture > Living > Ceiling Lights,4\
+Furniture > Living > Chairs,49\
+Furniture > Living > Coffee & Side Tables,65\
+Furniture > Living > Entertainment Units,6\
+Furniture > Living > Floor Lamps,2\
+Furniture > Living > Ottomans,10\
+Furniture > Living > Re-Vive Recliners,12\
+Furniture > Living > Sofas,83\
+Gourmet Gifts > Sweets,1\
+Handbags > Handbags,238\
+Handbags > Handbags > Backpacks,164\
+Handbags > Handbags > Bucket Bags,77\
+Handbags > Handbags > Clutches & Evening,427\
+Handbags > Handbags > Crossbodies,1429\
+Handbags > Handbags > Satchels,998\
+Handbags > Handbags > Shoulder Bags,517\
+Handbags > Handbags > Totes,1143\
+Handbags > Luggage > Backpacks & Crossbodies,110\
+Handbags > Luggage > Garment Bags,17\
+Handbags > Luggage > Laptop Bags & Messengers,22\
+Handbags > Luggage > Luggage Sets & Collections,2\
+Handbags > Luggage > Luggage Sets & Collections > Luggage Sets & Collections,3\
+Handbags > Luggage > Suitcases,923\
+Handbags > Luggage > Suitcases > Luggage Sets & Collections,5\
+Handbags > Luggage > Totes & Duffle Bags,138\
+Handbags > Luggage > Travel Accessories > Locks & Tags,14\
+Handbags > Luggage > Travel Accessories > Luggage Accessories,33\
+Handbags > Luggage > Travel Accessories > Scales,1\
+Handbags > Luggage > Travel Accessories > Travel Pillows,12\
+Handbags > Luggage > Travel Accessories > Wallets,5\
+Handbags > Wallets & Cases,21\
+Handbags > Wallets & Cases > Card Cases & Coin Purses,72\
+Handbags > Wallets & Cases > Cosmetic Bags,54\
+Handbags > Wallets & Cases > Keychains,6\
+Handbags > Wallets & Cases > Phone & Tablet Cases,48\
+Handbags > Wallets & Cases > Phone And Tablet Cases,20\
+Handbags > Wallets & Cases > Wallets,348\
+Handbags > Wallets & Cases > Wristlets,168\
+HBC Collections,4\
+HBC Collections > HBC Collection,134\
+Hbc Collections > Hbc Collection > Accessories,161\
+Hbc Collections > Hbc Collection > Blankets & Throws,95\
+Hbc Collections > Hbc Collection > Dogs,13\
+Hbc Collections > Hbc Collection > Gifts,3\
+Hbc Collections > Hbc Collection > Gifts Made In Canada,15\
+Hbc Collections > Hbc Collection > Hbc Collection Bags,7\
+Hbc Collections > Hbc Collection > Holiday,2\
+Hbc Collections > Hbc Collection > Home,117\
+Hbc Collections > Hbc Collection > Kids,60\
+Hbc Collections > Hbc Collection > Men,99\
+Hbc Collections > Hbc Collection > Outdoor,35\
+Hbc Collections > Hbc Collection > Women,110\
+HBC Collections > Olympic Collection,22\
+Hbc Collections > Olympic Collection > 2014 Sochi Olympic Uniforms > Men'S,6\
+Hbc Collections > Olympic Collection > Accessories,88\
+Hbc Collections > Olympic Collection > Accessories > Sunglasses,2\
+Hbc Collections > Olympic Collection > Collectibles,16\
+Hbc Collections > Olympic Collection > Dogs,14\
+Hbc Collections > Olympic Collection > Kids,418\
+Hbc Collections > Olympic Collection > Men,381\
+Hbc Collections > Olympic Collection > Red Mittens,19\
+Hbc Collections > Olympic Collection > Sunglasses,2\
+Hbc Collections > Olympic Collection > Women,369\
+Hbc Collections > Pan Am Team Collection > Kids,5\
+Hbc Collections > Pan Am Team Collection > Men,19\
+Hbc Collections > Pan Am Team Collection > Women,12\
+Holiday,2\
+Holiday > Decor,3\
+Holiday > Table Top,2\
+Holiday > Trees & Wreaths,9\
+Home,490\
+Home > Appliances > Major Appliances > Dishwashers,1\
+Home > Appliances > Major Appliances > Refrigerators,1\
+Home > Appliances > Major Appliances > Stoves & Ovens,3\
+Home > Appliances > Major Appliances > Washers & Dryers,5\
+Home > Appliances > Small Appliances > Actifry & Deep Fryers,1\
+Home > Appliances > Small Appliances > Air & Deep Fryers,15\
+Home > Appliances > Small Appliances > Baby Bottle Warmers & Sterilizers,3\
+Home > Appliances > Small Appliances > Coffee Makers,1\
+Home > Appliances > Small Appliances > Electric Grills & Griddles,30\
+Home > Appliances > Small Appliances > Espresso Machines,7\
+Home > Appliances > Small Appliances > Food Processors & Choppers,39\
+Home > Appliances > Small Appliances > Grinders & Frothers,1\
+Home > Appliances > Small Appliances > Ice Cream & Popcorn Makers,6\
+Home > Appliances > Small Appliances > Juicers & Blenders,67\
+Home > Appliances > Small Appliances > Juicers & Blenders > Blenders,23\
+Home > Appliances > Small Appliances > Kettles > Electric,10\
+Home > Appliances > Small Appliances > Kettles > Stovetop,17\
+Home > Appliances > Small Appliances > Microwave Ovens,11\
+Home > Appliances > Small Appliances > Mixers > Attachments,32\
+Home > Appliances > Small Appliances > Mixers > Hand Mixers,15\
+Home > Appliances > Small Appliances > Mixers > Stand Mixers,99\
+Home > Appliances > Small Appliances > Rice & Slow Cookers,40\
+Home > Appliances > Small Appliances > Single Serve Machines,6\
+Home > Appliances > Small Appliances > Soda Makers,22\
+Home > Appliances > Small Appliances > Sous Vide,2\
+Home > Appliances > Small Appliances > Sparkling Beverage Makers,37\
+Home > Appliances > Small Appliances > Specialty Appliances,19\
+Home > Appliances > Small Appliances > Specialty Baking,7\
+Home > Appliances > Small Appliances > Toasters & Toaster Ovens,83\
+Home > Appliances > Small Appliances > Vacuums > Canister Vacuums,14\
+Home > Appliances > Small Appliances > Vacuums > Cordless & Handheld Vacuums,10\
+Home > Appliances > Small Appliances > Vacuums > Cordless Vacuums,1\
+Home > Appliances > Small Appliances > Vacuums > Robot Vacuums,3\
+Home > Appliances > Small Appliances > Vacuums > Upright Vacuums,9\
+Home > Appliances > Small Appliances > Vacuums > Vacuum Accessories,7\
+Home > Appliances > Small Appliances > Waffle & Bread Makers,5\
+Home > Bath  > Bath Mats & Rugs,510\
+Home > Bath  > Bathrobes,39\
+Home > Bath  > Bathroom Accessories,19\
+Home > Bath  > Bathroom Accessory Sets,315\
+Home > Bath  > Bathroom Hardware,18\
+Home > Bath  > Bathroom Organization > Bathroom Cleaning Supplies,48\
+Home > Bath  > Bathroom Organization > Bathroom Storage,9\
+Home > Bath  > Bathroom Organization > Countertop,249\
+Home > Bath  > Bathroom Organization > Shower Caddies,13\
+Home > Bath  > Bathroom Organization > Towel Stands,2\
+Home > Bath  > Bathroom Scales,2\
+Home > Bath  > Shower Curtains > Hooks & Liners,67\
+Home > Bath  > Shower Curtains > Shower Curtains,160\
+Home > Bath  > Towels,1402\
+"Home > Bed > Blankets, Throws & Quilts",296\
+Home > Bed > Decorative Pillows,166\
+Home > Bed > Duvet Covers,4\
+Home > Bed > Duvet Covers & Sets,684\
+Home > Bed > Duvets,155\
+Home > Bed > Mattress Pads,77\
+Home > Bed > Pillow & Mattress Protectors,114\
+Home > Bed > Pillow Protectors,28\
+Home > Bed > Pillows,261\
+Home > Bed > Quilts & Coverlets,64\
+Home > Bed > Sheets & Pillowcases,2459\
+}
