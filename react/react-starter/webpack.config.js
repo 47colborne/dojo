@@ -25,7 +25,8 @@ const COMMON = {
 		}]
 	},
 	resolve: {
-		extensions: ["", ".css", ".js", ".jsx"]
+		extensions: ["", ".css", ".js", ".jsx"],
+		"root": __dirname
 	},
 	postcss: (webpack) => {
 		return [
