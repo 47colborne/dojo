@@ -12,7 +12,7 @@ const COMMON = {
 	},
 	output: {
 		filename: 'bundle.js',
-		path: PATH('build')
+		path: PATH('public')
 	},
 	module: {
 		loaders: [{
@@ -38,7 +38,7 @@ const COMMON = {
 	debug: true,
 	devtool: 'cheap-source-map',
 	devServer: {
-		contentBase: PATH('build'),
+		contentBase: PATH('public'),
 		hot: true,
 		inline: true,
 		stats: 'error-only'
