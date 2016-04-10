@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -w test/helpers/browser.js test/*.spec.js --require ignore-styles",
+    "test": "mocha test/helpers/browser.js test/*.spec.js --require ignore-styles",
     "dev:hot": "webpack-dev-server --hot --inline --progress --colors --watch --display-error-details --display-cached --content-base ./"
   },
   "author": "",
