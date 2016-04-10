@@ -13,7 +13,7 @@ module.exports = {
     historyApiFallback: true,
   },
   resolve: {
-    extensions: ['','.css', '.js', '.jsx'],
+    extensions: ['', '.css', '.js', '.jsx'],
   },
   output: {
     path: path.resolve(buildDirectory),
@@ -27,7 +27,7 @@ module.exports = {
   },
   postcss: (webpack) => {
     return [
-      require("postcss-import")({ addDependencyTo: webpack }),
+      require("postcss-import")({addDependencyTo: webpack}),
       require("postcss-url")(),
       require('postcss-cssnext')()
     ]
@@ -36,11 +36,15 @@ module.exports = {
     loaders: [{
       test: /\.jsx?$/,
       exclude: /(node_modules|bower_components)/,
-      loader: ['style', 'css', 'postcss', 'babel'],
+      loader: ['babel'],
       query: {
         presets: ['react', 'es2015', 'stage-0'],
-      },
-    }],
+      }
+    },
+      {
+        test: /\.css$/,
+        loaders: ['style', 'css', 'postcss']
+      }],
   },
   plugins: [],
 };

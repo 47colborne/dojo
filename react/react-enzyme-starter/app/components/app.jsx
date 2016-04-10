@@ -8,6 +8,9 @@ class App extends Component {
 		return (
 			<div id="app">
 				Hello World!
+        <div id="globalid">
+          global!
+        </div>
 			</div>
 		)
 	}
