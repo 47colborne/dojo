@@ -48,14 +48,3 @@ module.exports = {
   },
   plugins: [],
 };
-
-//module: {
-//  loaders: [{
-//    test: /\.jsx?$/,
-//    loader: 'babel',
-//    include: PATH('app')
-//  }, {
-//    test: /\.css$/,
-//    loaders: ['style', 'css', 'postcss']
-//  }]
-//}
