@@ -1,0 +1,10 @@
+/* Import Libraries */
+/* =========================================== */
+@import 'normalize.css';
+
+/* Global Styles and Mixins */
+/* =========================================== */
+
+#globalid {
+    color: green;
+}
