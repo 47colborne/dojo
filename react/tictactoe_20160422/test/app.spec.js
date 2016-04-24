@@ -1,6 +1,4 @@
-import React from 'react';
-import { mount, shallow } from 'enzyme';
-import {expect} from 'chai';
+import { expect, sinon, React, shallow, mount } from './helpers/spec-helper.js';
 
 import App from '../app/components/app';
 
