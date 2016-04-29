@@ -12,15 +12,18 @@ class Game extends Component {
     
     this.state = { 
       symbols: [],
-      player: "X"
+      player: "X",
+      statusMessage: ''
      }
   }
-   
 
-  onCellClicked(cell) {
-    var newSymbols = this.state.symbols;
-    newSymbols[cell.props.index] = this.state.player;
-    this.setState({symbols: newSymbols})
+  onCellClicked(index) {
+    if (!this.state.symbols[index] ) {
+      var newSymbols = this.state.symbols;
+      newSymbols[index] = this.state.player;
+      var newPlayer = this.state.player == "X" ? "O" : "X";
+      this.setState({ symbols: newSymbols, player: newPlayer }, () => this.checkForWin(index));
+    }
   }
 
   _renderCell(index) {
@@ -38,9 +41,25 @@ class Game extends Component {
     return cells;
   }
 
+  checkForWin(index) {
+    // var letter = this.state.symbols[index];
+    // if (this.state.symbols[0] == this.state.player && this.state.symbols[1] == this.state.player) {
+    //   this.setState({statusMessage: this.state.player + " Wins!"});
+    // }
+    // for(var row_number = 0; row_number < this.props.size; row_number = row_number + this.props.size) {
+    //   for(var column_number = row_number * this.props.size; column_number++) {
+    //
+    //   }
+    //
+    // }
+
+  }
+
+
   render () {
     return (
       <div id="game">
+        <h2 className="game-status">{ this.state.statusMessage }</h2>
         <Grid>
           { this._renderCells() }
         </Grid>

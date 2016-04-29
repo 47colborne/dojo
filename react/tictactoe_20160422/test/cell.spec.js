@@ -15,8 +15,8 @@ describe('<Cell />', function () {
 
   it('should trigger a callback from props onClick', () => {
     var callback = sinon.spy();
-    const wrapper = shallow(<Cell symbol="X" onClick={ callback }/>);
+    const wrapper = shallow(<Cell symbol="X" onClick={ callback } index={0}/>);
     wrapper.simulate('click');
-    expect(callback).to.have.been.calledWith(wrapper.instance());
+    expect(callback).to.have.been.calledWith(0);
   });
 });
