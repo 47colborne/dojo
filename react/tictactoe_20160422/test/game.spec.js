@@ -84,14 +84,13 @@ describe('<Game />', function () {
       expect(wrapper.find('.game-status').text()).to.be.empty;
     })
 
-    // describe('when a player has a horizontal row', function () {
-    //   it('displays a victory message for the winning player', function () {
-    //     const wrapper = mount(<Game size={2}/>);
-    //     wrapper.instance().onCellClicked(0);
-    //     wrapper.instance().onCellClicked(2);
-    //     wrapper.instance().onCellClicked(1);
-    //     expect(wrapper.find('.game-status')).to.have.text("X Wins!");
-    //   })
-    // })
+    describe('when a player has a horizontal row', function () {
+      it('displays a victory message for the winning player', function () {
+        const wrapper = mount(<Game size={2}/>);
+        wrapper.instance().onCellClicked(0);
+        wrapper.instance().onCellClicked(1);
+        expect(wrapper.find('.game-status')).to.have.text("X Wins!");
+      })
+    })
   });
 });

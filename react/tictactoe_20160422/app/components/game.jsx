@@ -46,13 +46,18 @@ class Game extends Component {
     // if (this.state.symbols[0] == this.state.player && this.state.symbols[1] == this.state.player) {
     //   this.setState({statusMessage: this.state.player + " Wins!"});
     // }
-    // for(var row_number = 0; row_number < this.props.size; row_number = row_number + this.props.size) {
-    //   for(var column_number = row_number * this.props.size; column_number++) {
-    //
-    //   }
-    //
-    // }
+    
+    for(var row_number = 0; row_number < this.props.size ** 2; row_number = row_number + this.props.size) {
+      console.log(row_number);
+      for(var index = row_number * this.props.size + 1; index < row_number * this.props.size + row_number; index++) {
+        if (this.state.symbols[index] != this.state.symbols[index - 1]) {
+          console.log(index);
+          return false;
+        }
+      }
+    }
 
+    return true;
   }
 
 
