@@ -10,7 +10,7 @@ class TestObserver
   end
 
   def do_on_complete
-    @completions += 1
+    @complete = true
   end
 
   def do_on_error(error)
