@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'rspec'
+gem 'rspec-its'
+gem 'guard'
+gem 'guard-rspec'
+gem 'terminal-notifier', '~> 1.7.0'
+gem 'terminal-notifier-guard'
+gem 'pry-byebug'
+gem 'awesome_print'
+gem 'rx'
