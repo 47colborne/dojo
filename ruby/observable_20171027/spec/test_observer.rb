@@ -1,4 +1,6 @@
 class TestObserver
+  attr_reader :values, :errors
+
   def initialize
     @values = []
     @errors = []
