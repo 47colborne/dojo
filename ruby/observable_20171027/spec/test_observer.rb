@@ -31,8 +31,8 @@ class TestObserver
     @values == values
   end
 
-  def has_error?(error)
-    @errors.include?(error)
+  def has_error?(error_class)
+    @errors.any? { |error| error.class == error_class }
   end
 
   def expect_to_have_values(*values)

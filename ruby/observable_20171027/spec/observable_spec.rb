@@ -15,7 +15,7 @@ describe Observable do
   end
 
   describe '.just' do
-    xit 'emits the given items then completes' do
+    it 'emits the given items then completes' do
       Observable.just(1, 2, 3)
           .subscribe(test_observer)
 
@@ -25,7 +25,7 @@ describe Observable do
   end
 
   describe '.create' do
-    xit 'returns an observable that can emit values' do
+    it 'returns an observable that can emit values' do
       source = Proc.new do |emitter|
         3.times { |n| emitter.on_next(n + 1) }
         emitter.on_complete
@@ -38,7 +38,7 @@ describe Observable do
       expect(test_observer).to be_complete
     end
 
-    xit 'returns an observable that can emit values asynchronously' do
+    it 'returns an observable that can emit values asynchronously' do
       source_thread = nil
 
       source = Proc.new do |emitter|
@@ -64,7 +64,7 @@ describe Observable do
   end
 
   describe '#do_on_next' do
-    xit 'is called for each value emitted' do
+    it 'is called for each value emitted' do
       service = double(:service, do_something: nil)
       expect(service).to receive(:do_something).once.ordered.with(1)
       expect(service).to receive(:do_something).once.ordered.with(2)
@@ -77,7 +77,7 @@ describe Observable do
   end
 
   describe '#do_on_complete' do
-    xit 'is called when complete' do
+    it 'is called when complete' do
       service = double(:service, do_something: nil)
       expect(service).to receive(:do_something).with(1)
       expect(service).to receive(:do_something).with(2)
@@ -90,7 +90,7 @@ describe Observable do
   end
 
   describe '#do_on_error' do
-    xit 'is called when error occurs' do
+    it 'is called when error occurs' do
       source = Proc.new do |emitter|
         begin
           x = 1 / 0
@@ -112,7 +112,7 @@ describe Observable do
   end
 
   describe '#subscribe' do
-    xit 'can subscribe an observer' do
+    it 'can subscribe an observer' do
       Observable.just(1)
           .subscribe(test_observer)
 
@@ -120,7 +120,7 @@ describe Observable do
       expect(test_observer).to be_complete
     end
 
-    xit 'can subscribe with callbacks' do
+    it 'can subscribe with callbacks' do
       i = 1
       Observable.just(1)
           .do_on_next(->(n) { i += n })
@@ -130,7 +130,7 @@ describe Observable do
       expect(i).to eq(12)
     end
 
-    xit 'can subscribe with callbacks and an observer' do
+    it 'can subscribe with callbacks and an observer' do
       i = 1
       Observable.just(1)
           .do_on_next(->(n) { i += n })
@@ -143,18 +143,28 @@ describe Observable do
   end
 
   describe '#map' do
-    xit 'applies a function to observed values' do
+    it 'applies a function to observed values' do
       Observable.just(1, 2, 3)
           .map(->(n) { n * 2 })
           .map(->(n) { n + 1 })
           .subscribe(test_observer)
 
       test_observer.expect_to_have_values(3, 5, 7)
+      expect(test_observer).to be_complete
+    end
+
+    it 'emits error raised by mapper' do
+      Observable.just(1, 2, 3)
+          .map(->(n) { n / 0 })
+          .subscribe(test_observer)
+
+      expect(test_observer).to have_error(ZeroDivisionError)
+      expect(test_observer).to be_complete
     end
   end
 
   describe '#flat_map' do
-    xit 'applies a function to observed values that returns an observable and merges it' do
+    it 'applies a function to observed values that returns an observable and merges it' do
       Observable.just(1, 3, 5)
           .flat_map(->(n) { Observable.just(n, n + 1) })
           .subscribe(test_observer)
